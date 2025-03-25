@@ -1,0 +1,133 @@
+body{
+    background: #fff;
+    color:  #222;
+    font-family: Lato;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Lato;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    opacity: 0.7;
+}
+#wallets img{
+    width: 7rem;
+    height: 7rem;
+    
+}
+.logo{
+    width: 4.5rem;
+}
+.lh-3{
+    line-height: 40px;
+}
+.wallets{
+    cursor: pointer;
+}
+.my-modal{
+    display: none;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99999;
+}
+.my-modal .dialog{
+    margin: 5rem auto;
+    background: white;
+    width: 19rem;
+    border-radius: 20px;
+}
+.pull-right{
+    float: right;
+}
+.pull-left{
+    float: left;
+}
+.my-modal .my-modal-head{
+    background: #ddd;
+    border-radius: 20px 20px 0px 0px;
+}
+.my-modal .first{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: red;
+}
+.my-modal .second{
+    border: 1px solid #444;
+    border-radius: 10px;
+    color: #444;
+    cursor: pointer;
+}
+#my-modal-wallet-img{
+    width: 2rem;
+    height: 2rem;
+}
+.footer{
+    opacity: 1;
+    font-weight: 600;
+    text-align: center;
+    color: blue;
+}
+.footer img{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 8px;
+}
+#connect{
+    display: none;
+}
+p.opq-1{
+    opacity: 1;
+}
+#connect-modal{
+    display: none;
+    background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99999;
+    overflow: auto;
+}
+button{
+    font-family: Lato;
+}
+#connect-modal img{
+    width: 3rem;
+}
+#connect-modal .dialog{
+    margin: 2rem auto;
+    background: white;
+    width: 19rem;
+    border-radius: 20px;
+}
+.tabs p{
+    cursor: pointer;
+}
+.tabs p.active{
+    color: blue;
+    opacity: 1;
+}
+@media (min-width: 650px){
+    .logo{
+        width: 10rem;
+    }
+    .my-modal .dialog{
+        width: 25rem;
+    }
+    #connect-modal .dialog{
+        width: 25rem;
+    }   
+}   
